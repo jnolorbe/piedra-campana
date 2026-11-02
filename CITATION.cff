@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use these data or this code, please cite them as below."
 title: "Piedra Campana: data and code for the acoustic analysis of a natural lithophone (San Antonio, Lima, Peru)"
 version: 1.0.0
+doi: 10.5281/zenodo.23898343
+repository-code: "https://github.com/jnolorbe/piedra-campana"
 date-released: 2026-11-01
 license: CC-BY-4.0
 authors:
@@ -12,6 +14,10 @@ authors:
   - family-names: Acevedo Poma
     given-names: Félix Julián
     affiliation: "Universidad Nacional del Callao"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23898343
+    description: "Zenodo archive of version 1.0.0"
 keywords:
   - lithophone
   - ringing rock

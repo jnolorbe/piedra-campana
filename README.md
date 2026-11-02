@@ -1,5 +1,7 @@
 # Piedra Campana — data and code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23898343.svg)](https://doi.org/10.5281/zenodo.23898343)
+
 Field recordings and code for the acoustic analysis of the **Piedra Campana**, a natural lithophone (a rock slab that
 rings when struck) on the Cerro Campana, San Antonio (Cañete, Lima, Peru). The slab rests near its centre on other
 stones of similar appearance, and most of its edges are free. A 3D model of the stone is included
@@ -76,4 +78,8 @@ python run_all.py                     # or run all of them at once (≈ 5 min)
 
 ## Licence and citation
 
-Data: CC BY 4.0 ([LICENSE-DATA.md](LICENSE-DATA.md)). Code: MIT ([LICENSE](LICENSE)). How to cite: [CITATION.cff](CITATION.cff).
+Data: CC BY 4.0 ([LICENSE-DATA.md](LICENSE-DATA.md)). Code: MIT ([LICENSE](LICENSE)). Please cite the archived
+version (details in [CITATION.cff](CITATION.cff)):
+
+> Mendoza Nolorbe JN, Acevedo Poma FJ (2026) Piedra Campana: data and code for the acoustic analysis of a natural
+> lithophone (San Antonio, Lima, Peru), version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.23898343
