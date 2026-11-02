@@ -1,0 +1,9 @@
+# Conda/mamba environment (miniforge). Create with:  mamba env create -f environment.yml
+name: piedra-campana
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements.txt

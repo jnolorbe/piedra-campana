@@ -1,0 +1,20 @@
+test,variable,statistic,p
+Mantel,Timbre (8 features per zone),0.04054850815484939,0.214
+Mantel,"Modal content (13 amplitudes, dB)",0.11796121630684493,0.0448
+Moran (neighbours < 0.5 m),Mean centroid,-0.10631149083886975,0.6792
+Moran (neighbours < 0.5 m),Mean bandwidth,0.06281703939481059,0.172
+Moran (neighbours < 0.5 m),s.d. of the centroid,0.0007609694476262255,0.3226
+Moran (neighbours < 0.5 m),Modal purity,0.31804815336724934,0.008
+Moran (neighbours < 0.5 m),Amplitude of the 385 Hz mode,0.03360371653319333,0.2174
+Moran (neighbours < 0.5 m),Amplitude of the 600 Hz mode,-0.018053149442388856,0.3722
+Moran (neighbours < 0.5 m),Amplitude of the 759 Hz mode,-0.15748568576383243,0.8514
+Moran (neighbours < 0.5 m),Amplitude of the 849 Hz mode,-0.19350200692372313,0.9314
+Moran (neighbours < 0.5 m),Amplitude of the 970 Hz mode,-0.17181963303361514,0.878
+Moran (neighbours < 0.5 m),Amplitude of the 1260 Hz mode,0.051933808756452864,0.2028
+Moran (neighbours < 0.5 m),Amplitude of the 1299 Hz mode,0.1485668926600695,0.0592
+Moran (neighbours < 0.5 m),Amplitude of the 1349 Hz mode,-0.12266560102177122,0.7458
+Moran (neighbours < 0.5 m),Amplitude of the 1389 Hz mode,-0.0350546210690592,0.438
+Moran (neighbours < 0.5 m),Amplitude of the 1645 Hz mode,0.006550268505397476,0.3024
+Moran (neighbours < 0.5 m),Amplitude of the 1820 Hz mode,-0.05485685251518681,0.4968
+Moran (neighbours < 0.5 m),Amplitude of the 1893 Hz mode,-0.015608807931306963,0.3762
+Moran (neighbours < 0.5 m),Amplitude of the 1938 Hz mode,0.0742569534182663,0.1538

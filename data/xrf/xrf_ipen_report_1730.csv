@@ -1,0 +1,15 @@
+element,unit,value,uncertainty,note
+K,%,3.69,0.24,
+Mn,mg/kg,838,16,
+Fe,%,4.51,0.06,
+Ti,mg/kg,3916,8,
+Ni,mg/kg,19.4,1.2,
+Si,%,24.9,1.5,
+Rb,mg/kg,119,4,
+Sr,mg/kg,205,23,
+V,mg/kg,170,24,
+Y,mg/kg,15.6,0.3,
+Zr,mg/kg,205,2,
+Nb,mg/kg,5.17,0.23,
+Nd,mg/kg,13.2,0.8,
+Al,%,7.96,0.22,20% relative difference from the certified reference material (laboratory note)

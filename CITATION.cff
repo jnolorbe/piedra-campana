@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite them as below."
+title: "Piedra Campana: data and code for the acoustic analysis of a natural lithophone (San Antonio, Lima, Peru)"
+version: 1.0.0
+date-released: 2026-11-01
+license: CC-BY-4.0
+authors:
+  - family-names: Mendoza Nolorbe
+    given-names: Juan Neil
+    affiliation: "Universidad Nacional del Callao, Facultad de Ingeniería Eléctrica y Electrónica"
+    email: jnmendozan@unac.edu.pe
+  - family-names: Acevedo Poma
+    given-names: Félix Julián
+    affiliation: "Universidad Nacional del Callao"
+keywords:
+  - lithophone
+  - ringing rock
+  - modal damping
+  - musical acoustics
+  - Peru

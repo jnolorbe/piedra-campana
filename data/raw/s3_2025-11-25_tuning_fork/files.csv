@@ -1,0 +1,6 @@
+file,object,duration_s,fs_Hz,channels,app_metadata,sha256
+tuning_fork_256Hz_20251125-150247.wav,tuning fork (256 Hz printed),13.65,48000,1,tuning_fork_256Hz_20251125-150247.wav.meta.txt,633ebef4486d29070e714cd5ad30d9240c90b2ad5e683d177f3b44e1a17adf39
+tuning_fork_256Hz_20251125-150352.wav,tuning fork (256 Hz printed),15.7,48000,1,tuning_fork_256Hz_20251125-150352.wav.meta.txt,ac568517f517350c38545a15f9a8c80f4296b81166069eb0d9e6070b48f2dfda
+tuning_fork_256Hz_20251125-150434.wav,tuning fork (256 Hz printed),12.8,48000,1,tuning_fork_256Hz_20251125-150434.wav.meta.txt,d9dc435ac2ba034adc16da15ffb5395bd555519a381b4a8a74814d8ce338a91e
+tuning_fork_256Hz_20251125-150608.wav,tuning fork (256 Hz printed),17.58,48000,1,tuning_fork_256Hz_20251125-150608.wav.meta.txt,042a3e5cdf0416401ed84459e57426a10bdf68f81d4050e1355ae780fc5c3ce1
+tuning_fork_256Hz_20251125-150634.wav,tuning fork (256 Hz printed),13.31,48000,1,tuning_fork_256Hz_20251125-150634.wav.meta.txt,92d60946ee314f463b96838adae53bad2af7220727b03514e105b8f128d30b3c

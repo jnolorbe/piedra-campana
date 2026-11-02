@@ -1,0 +1,27 @@
+Meta File Version   : 1.0.1
+File Name           : 20261028-232713.wav
+Title               : 28 October 2026 23:27:13
+Creation Date       : Wednesday, 28 October 2026 at 23:27:13 Peru Standard Time
+Last Modified Date  : Wednesday, 28 October 2026 at 23:27:55 Peru Standard Time
+File Size           : 3969024 bytes
+Duration            : 00:00:41
+Sample Rate         : 48000
+Bit Rate            : 768000
+Channels            : 1
+Bits per Channel    : 16
+VRP Version         : 4.1.3
+Has photo           : NO
+
+
+------VOICE-RECORD-PRO-META-START------
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwdHh8gISIjJCUmJ1UkbnVsbNMNDg8QFhxXTlMu
+a2V5c1pOUy5vYmplY3RzViRjbGFzc6UREhMUFYACgAOABIAFgAalFxgZGhuAB4AIgAmACoALgAxZ
+ZmlsZW10aW1lVXRpdGxlWWZpbGVjdGltZV8QD3JlY29yZC1zZXR0aW5nc1t2cnAtdmVyc2lvbiNB
+2riy0tOnIl8QGDI4IE9jdG9iZXIgMjAyNiAyMzoyNzoxMyNB2riyyFlMKl8QLX5+Zm12MTA6NDgw
+MDA6MTY6MToxMjgwMDA6OTY6MTgxOTMwNDgxMzoyMDB+flU0LjEuM9IoKSorWiRjbGFzc25hbWVY
+JGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oywtLl8QE05TTXV0YWJsZURpY3Rpb25hcnlc
+TlNEaWN0aW9uYXJ5WE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAbgB2AIEAiACO
+AJAAkgCUAJYAmACeAKAAogCkAKYAqACqALQAugDEANYA4gDrAQYBDwE/AUUBSgFVAV4BdAF4AY4B
+mwAAAAAAAAIBAAAAAAAAAC8AAAAAAAAAAAAAAAAAAAGk
+------VOICE-RECORD-PRO-META-END------

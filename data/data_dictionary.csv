@@ -1,0 +1,63 @@
+file,column,type,unit,description
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: Audio data.csv,Time (ms),float,ms,time from the start of the buffer; step 0.020834 ms (48 kHz); 24 000 samples = 0.5 s
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: Audio data.csv,Recording (a.u.),float,arbitrary units,"microphone sound pressure, internal phyphox scale (uncalibrated)"
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: meta/time.csv,event,text,-,START or PAUSE of the phyphox experiment; empty in 5 records
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: meta/time.csv,experiment time,float,s,accumulated time of the experiment
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: meta/time.csv,system time,float,Unix s,system time
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: meta/time.csv,system time text,text,date-time UTC-05:00,readable time; the last event is the moment of capture
+data/raw/s1_2025-02-07_phyphox_audio/*.zip :: meta/device.csv,"property, value",text,-,"phyphox version (1.1.16) and phone model (iPhone17,5 = iPhone 16e)"
+data/raw/s2_2025-10-19_accelerometer/*.xml,acc_time,float,s,time from systemTime; ~200.7 Hz
+data/raw/s2_2025-10-19_accelerometer/*.xml,"accX, accY, accZ",float,m/s²,linear acceleration (without gravity) along the phone axes
+data/raw/s2_2025-10-19_accelerometer/*.xml,acc,float,m/s²,magnitude of the linear acceleration
+data/raw/s2_2025-10-19_accelerometer/*.xml,systemTime (attribute),integer,Unix ms,start of the record
+data/raw/s2_2025-10-19_audio/*.wav,(audio),"PCM int16, 2 channels",counts,48 kHz; processing averages the two channels; the name is the local start time (UTC-05:00)
+data/raw/s2_2025-10-19_audio/*.wav.meta.txt,(text),-,-,"Voice Record Pro 4.0.3 metadata: date, duration, sampling rate, bits"
+data/raw/s3_2025-11-25_tuning_fork/*.wav,(audio),"PCM int16, 1 channel",counts,48 kHz; 256 Hz tuning fork (printed frequency)
+data/raw/s4_2026-10-28_instrument_check/*.wav,(audio),"PCM int16, 1 channel",counts,48 kHz; 256 and 329.6 Hz tuning forks and steel bowl (see metadata.md)
+data/raw/*/files.csv,(all),-,-,one row per file of the folder; columns described in the metadata.md of the folder
+data/photos/*.jpg,(image),"JPEG, 4000 × 3000",pixels,photographs of the stone on 19 Oct 2025 without EXIF metadata (see data/photos/metadata.md)
+data/photos/stone_3d_model_2025-10-19.glb,(3D model),binary glTF 2.0,-,photogrammetric textured mesh of the slab and its support (Polycam)
+data/xrf/xrf_ipen_report_1730.csv,element,text,-,chemical symbol
+data/xrf/xrf_ipen_report_1730.csv,unit,text,-,% by mass or mg/kg
+data/xrf/xrf_ipen_report_1730.csv,"value, uncertainty",float,as unit,concentration and standard deviation of 2 replicates
+data/xrf/xrf_ipen_report_1730.csv,note,text,-,laboratory remarks
+data/geometry/zone_coordinates.csv,zone,integer,-,strike zone
+data/geometry/zone_coordinates.csv,"x_m, y_m",float,m,"centre of the zone in the top view; origin at the lower-left corner of the rectangle enclosing the slab outline in strike_zone_map.png, x along the length (to the right), y across (upwards); scale 2.8 mm/px"
+data/geometry/zone_coordinates.csv,edge_distance_m,float,m,distance from the zone centre to the nearest edge of the outline
+data/annotation/zone_intervals.csv,zone,integer,-,struck zone (1–24)
+data/annotation/zone_intervals.csv,file,text,-,WAV file of data/raw/s2_2025-10-19_audio
+data/annotation/zone_intervals.csv,"start_s, end_s",float,s,start and end of the zone interval in the WAV file
+data/derived/strikes.csv,"zone, strike",integer,-,zone and number of the strike within the zone
+data/derived/strikes.csv,file,text,-,source WAV file
+data/derived/strikes.csv,run,integer,-,run identifier (zone × recording)
+data/derived/strikes.csv,set,text,-,characterisation or validation: set of the recording (notebook 01; see data/derived/recording_sets.csv)
+data/derived/strikes.csv,t_s,float,s,time of the peak in the WAV file (band > 4 kHz)
+data/derived/strikes.csv,i_peak,integer,sample,sample of the strike maximum (largest |x| > 300 Hz between −5 and +30 ms of the peak; 48 kHz)
+data/derived/strikes.csv,peak_amp_rel,float,-,peak amplitude relative to the 75th percentile of the peaks of its recording
+data/derived/strikes.csv,modes_present,integer,-,stone modes (of 13) standing out ≥ 6 times above the spectral median between 30 and 400 ms
+data/derived/strikes.csv,clipped,boolean,-,any sample ≥ 99 % of full scale in the 0.4 s window
+data/derived/strikes.csv,snr_dB,float,dB,RMS of the 0.4 s window (> 300 Hz) against the background noise of the recording (10th percentile of the RMS in 100 ms frames)
+data/derived/strikes.csv,prev_resonance_dB,float,dB,RMS of the 0.3 s before the strike relative to that of the 0.4 s window (tail of the previous strike)
+data/derived/strikes.csv,other_peak_in_window,boolean,-,another peak between 30 ms and 0.4 s after the strike maximum
+data/derived/strikes.csv,audio_peak_fs,float,fraction,peak of |x| (channel 1) within ±50 ms relative to full scale
+data/derived/strikes.csv,limiter,boolean,-,audio_peak_fs ≥ 0.90 (the iOS peak limiter acted)
+data/derived/strikes.csv,acc_recorded,boolean,-,an accelerometer record covers the strike
+data/derived/strikes.csv,acc_peak_ms2,float,m/s²,peak of |a| in −30/+50 ms minus the baseline (indirect measure of the force)
+data/derived/strikes.csv,acc_snr,float,-,acc_peak_ms2 divided by the robust noise before the strike
+data/derived/strikes.csv,acc_clear_pulse,boolean,-,acc_snr > 8
+data/derived/strikes.csv,"spectral_centroid, spectral_bandwidth",float,Hz,mean spectral centroid and bandwidth of the strike (0.4 s; 300 Hz high-pass; librosa 0.11)
+data/derived/strikes.csv,mfcc_0 ... mfcc_12,float,dimensionless,Mel-frequency cepstral coefficients (mean over the strike)
+data/derived/recording_sets.csv,file,text,-,WAV file of data/raw/s2_2025-10-19_audio
+data/derived/recording_sets.csv,set,text,-,characterisation or validation
+data/derived/recording_sets.csv,zones,text,-,zones struck in the recording
+data/derived/recording_sets.csv,strikes,integer,-,strikes in the recording
+data/derived/recording_sets.csv,accelerometer,boolean,-,the recording has an accelerometer record
+results/tables/t03_damping_strikes.csv,"mode, f",float,Hz,mode of the global catalogue and peak frequency in the strike
+results/tables/t03_damping_strikes.csv,"T60, T60_schroeder",float,s,60 dB decay time from the fit of the Hilbert envelope and from Schroeder integration
+results/tables/t03_damping_strikes.csv,Q,float,-,quality factor Q = π·f·T60/ln(1000)
+results/tables/t03_damping_modes.csv,"Q, Q_p25, Q_p75, eta_x1000, CV_between_zones",float,-,"median Q per mode, quartiles, η = 1000/Q and variation between zones"
+results/tables/t04_modal_amplitude_per_zone.csv,"modal_purity, A385 ... A1938",float,-,fraction of the energy in the 13 modes and relative amplitude (dB) of each mode per zone
+results/tables/t05_variance_components.csv,"zone, recording, strike",float,fraction,variance partition (mixed model) with 95 % CI from a clustered bootstrap
+results/tables/t07_validation.csv,"random_70_30, leave_one_recording_out, validation_accuracy",float,fraction,random-forest accuracy; 95 % CI from a bootstrap of recordings
+results/tables/t07_validation.csv,"chance_median, chance_p95, p_permutation",float,-,chance level from permutation of the zone between runs (100 permutations)
+results (other files),-,-,-,see the notebook that produces each file (notebook table in README.md)

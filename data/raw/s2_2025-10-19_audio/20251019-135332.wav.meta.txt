@@ -1,0 +1,27 @@
+Meta File Version   : 1.0.1
+File Name           : 20251019-135332.wav
+Title               : 19 October 2025 13:53:32
+Creation Date       : Sunday, 19 October 2025 at 13:53:32 Peru Standard Time
+Last Modified Date  : Sunday, 19 October 2025 at 13:54:54 Peru Standard Time
+File Size           : 14520320 bytes
+Duration            : 00:01:15
+Sample Rate         : 48000
+Bit Rate            : 1536000
+Channels            : 2
+Bits per Channel    : 16
+VRP Version         : 4.0.3
+Has photo           : NO
+
+
+------VOICE-RECORD-PRO-META-START------
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwdHh8gISIjJCUmJ1UkbnVsbNMNDg8QFhxXTlMu
+a2V5c1pOUy5vYmplY3RzViRjbGFzc6UREhMUFYACgAOABIAFgAalFxgZGhuAB4AIgAmACoALgAxZ
+ZmlsZW10aW1lVXRpdGxlWWZpbGVjdGltZV8QD3JlY29yZC1zZXR0aW5nc1t2cnAtdmVyc2lvbiNB
+2j1M/4grxF8QGDE5IE9jdG9iZXIgMjAyNSAxMzo1MzozMiNB2j1M6yoFgF8QLX5+Zm12MTA6NDgw
+MDA6MTY6MjoxMjgwMDA6OTY6MTgxOTMwNDgxMzoyMDB+flU0LjAuM9IoKSorWiRjbGFzc25hbWVY
+JGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oywtLl8QE05TTXV0YWJsZURpY3Rpb25hcnlc
+TlNEaWN0aW9uYXJ5WE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAbgB2AIEAiACO
+AJAAkgCUAJYAmACeAKAAogCkAKYAqACqALQAugDEANYA4gDrAQYBDwE/AUUBSgFVAV4BdAF4AY4B
+mwAAAAAAAAIBAAAAAAAAAC8AAAAAAAAAAAAAAAAAAAGk
+------VOICE-RECORD-PRO-META-END------

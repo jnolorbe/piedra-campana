@@ -1,0 +1,27 @@
+Meta File Version   : 1.0.1
+File Name           : 20251125-150434.wav
+Title               : 25 November 2025 15:04:34
+Creation Date       : Tuesday, 25 November 2025 at 15:04:34 Peru Standard Time
+Last Modified Date  : Tuesday, 25 November 2025 at 15:04:48 Peru Standard Time
+File Size           : 1232896 bytes
+Duration            : 00:00:12
+Sample Rate         : 48000
+Bit Rate            : 768000
+Channels            : 1
+Bits per Channel    : 16
+VRP Version         : 4.1.0
+Has photo           : NO
+
+
+------VOICE-RECORD-PRO-META-START------
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwdHh8gISIjJCUmJ1UkbnVsbNMNDg8QFhxXTlMu
+a2V5c1pOUy5vYmplY3RzViRjbGFzc6UREhMUFYACgAOABIAFgAalFxgZGhuAB4AIgAmACoALgAxZ
+ZmlsZW10aW1lVXRpdGxlWWZpbGVjdGltZV8QD3JlY29yZC1zZXR0aW5nc1t2cnAtdmVyc2lvbiNB
+2kmC+AAUal8QGTI1IE5vdmVtYmVyIDIwMjUgMTU6MDQ6MzQjQdpJgvSfWCVfEC1+fmZtdjEwOjQ4
+MDAwOjE2OjE6MTI4MDAwOjk2OjE4MTkzMDQ4MTM6MjAwfn5VNC4xLjDSKCkqK1okY2xhc3NuYW1l
+WCRjbGFzc2VzXxATTlNNdXRhYmxlRGljdGlvbmFyeaMsLS5fEBNOU011dGFibGVEaWN0aW9uYXJ5
+XE5TRGljdGlvbmFyeVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAYQBnAG4AdgCBAIgA
+jgCQAJIAlACWAJgAngCgAKIApACmAKgAqgC0ALoAxADWAOIA6wEHARABQAFGAUsBVgFfAXUBeQGP
+AZwAAAAAAAACAQAAAAAAAAAvAAAAAAAAAAAAAAAAAAABpQ==
+------VOICE-RECORD-PRO-META-END------
