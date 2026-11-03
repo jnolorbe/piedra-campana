@@ -11,9 +11,12 @@ authors:
     given-names: Juan Neil
     affiliation: "Universidad Nacional del Callao, Facultad de Ingeniería Eléctrica y Electrónica"
     email: jnmendozan@unac.edu.pe
+    orcid: "https://orcid.org/0000-0001-6714-5640"
   - family-names: Acevedo Poma
     given-names: Félix Julián
     affiliation: "Universidad Nacional del Callao"
+    email: fjacevedop@unac.edu.pe
+    orcid: "https://orcid.org/0000-0003-4185-9148"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23898343
